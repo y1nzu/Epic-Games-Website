@@ -10,9 +10,12 @@ import Epicgameslogo from "../assets/images/Epic_logo.png";
 
 const Navbar = () => {
   return <div className='navbar_container'>
-      <div classname='logo_container'></div>
+      <div className='logo_container'>
+
         <img className='logo' src={Epicgameslogo} />
-      <div className='image_container'> </div>
+      </div>
+        
+      
 
           <ul className ="navBar_List">
               <li className='navbar_list_item'>STORE</li>

@@ -5,20 +5,38 @@
     position: absolute;
     top: 0%;
     background-color: rgb(42, 42, 42);
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .navBar_List {
 
-    font-family: "Open Sans";
-    text-decoration-color: aliceblue;
-    text-align: mat;
+    font-family: Open Sans;
+    color: aliceblue;
+    font-size: 10;
     list-style: none !important;
     display: block;
     float: left;
-    max-height: 150px;
-    max-width: 204px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     position: relative;
     grid-row:auto;
 
+}
+
+.logo_container {
+    
+    max-height: 100%;
+    width: 35px;
+}
+
+.logo {
+
+    width: 100%;
+    height: auto;
 }
